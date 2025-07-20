@@ -100,6 +100,11 @@ section {
     font-weight: 600;
     color: white;
     text-decoration: none;
+    transition: 0.4s;
+}
+
+.navbar .navbar-nav .nav-item:hover .nav-link{
+    color: rgba(128, 128, 128,0.5);
 }
 .navbar .navbar-nav .nav-item.active{
     background-color: red;
